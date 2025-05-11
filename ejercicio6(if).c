@@ -22,8 +22,8 @@ int main()
    else 
    
    {
-      aumen1= a*0.12;
-      total= a+aumen1; 
+      aument2= a*0.12;
+      total= a+aument2; 
       printf("el sueldo total será: %f\n", total);
    }
    return 0;
