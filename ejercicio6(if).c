@@ -4,8 +4,7 @@
 int main()
 {
    int a;
-   float aumen1;
-   float aument2;
+   float aument;
    float total;
    
    printf("dame una cantidad:");
@@ -13,8 +12,8 @@ int main()
    
    if(a<1000)
    {
-      aumen1= a*0.15;
-      total= a+aumen1;
+      aument= a*0.15;
+      total= a+aument;
       
       printf("el sueldo total será: %f\n", total);
    }
@@ -22,8 +21,8 @@ int main()
    else 
    
    {
-      aument2= a*0.12;
-      total= a+aument2; 
+      aument= a*0.12;
+      total= a+aument; 
       printf("el sueldo total será: %f\n", total);
    }
    return 0;
