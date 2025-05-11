@@ -8,7 +8,7 @@ int main()
     int neg=0;
     int nul=0;
     
-    do
+    while(i<5)
     {
         printf("dame un número:");
         scanf("%d", &a);
@@ -24,6 +24,21 @@ int main()
                 neg=neg + 1;
             }
             else
+            {
+                pos=pos + 1;
+            }
+        }
+        
+        i=i + 1;
+        
+    }
+    
+    printf("la cantidad de números positivos es: %d\n", pos);
+    printf("la cantidad de números negativos es: %d\n", neg);
+    printf("la cantidad de números nulos es: %d\n", nul);
+    
+    return 0;
+}
             {
                 pos=pos + 1;
             }
