@@ -32,7 +32,7 @@ int main()
         i=i + 1;
         
     }
-    while(i<5);
+    while(i<100);
     
     printf("la cantidad de números positivos es: %d\n", pos);
     printf("la cantidad de números negativos es: %d\n", neg);
