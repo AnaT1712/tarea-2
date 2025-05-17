@@ -2,19 +2,19 @@
 
 int main()
 {
-    int list [5];
+    int list [10];
     int i;
     int pos=0;
     int neg=0;
     int nul=0;
     
-    for(i=0; i<5; i++)
+    for(i=0; i<10; i++)
     { 
       printf("dame un numero:");
       scanf("%d", &list[i]);
     }
     
-    for(i=0; i<5; i++)
+    for(i=0; i<10; i++)
     {
         if (list[i]==0)
         {
